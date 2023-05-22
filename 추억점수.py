@@ -7,4 +7,3 @@ def solution(name, yearning, photo):
                 if name[j] == photo[num][i]:
                     score += yearning[j]
         answer.append(score)
-    return answer
